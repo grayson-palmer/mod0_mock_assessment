@@ -1,0 +1,14 @@
+Class: Plant
+
+Attributes:
+- waterLevel(float)
+- height(float)
+- potType(string)
+- blooming(boolean)
+- datePlanted(datetime)
+
+Method:
+- flowerBlooming(Sets the blooming attribute to true or false)
+- repot(Changes the potType of the plant)
+- calculateGrowth(Calculates the rate of growth based on the height and when planted)
+- waterPlant(Add water to plant when waterLevel gets to low level)
