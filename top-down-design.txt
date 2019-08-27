@@ -1,0 +1,37 @@
+1 Gather ingredients
+  1.1 Go to the fridge
+    1.1.1 Open the fridge
+      1.1.1.1 Get the slicedMeat
+      1.1.1.2 Get the slicedCheese
+      1.1.1.3 Get the mayo
+      1.1.1.4 Get the mustard
+    1.1.2 Open the freezer
+      1.1.2.1 Get the bread
+2 Prepare the bread
+  2.1 Toast the bread
+    2.1.1 Pull bread out of bag
+    2.1.2 Put bread in toaster
+    2.1.3 Set toasterLevel
+    2.1.4 Start toasting
+3 Assemble the sandwich
+  3.1 Get utensils
+    3.1.1 Get plate from cupboard
+    3.1.2 Get butterKnife from drawer
+  3.2 Retrieve bread
+    3.2.1 Put bread on plate
+    3.2.2 Allow to cool
+  3.3 Spread Mustard on slice1 with butterKnife
+    3.3.1 Clean butterKnife
+  3.4 Spread Mayo on slice2 with butterKnife
+    3.4.1 Put butterKnife in dishwasher
+  3.5 Add slicedMeat
+    3.5.1 Pull slicedMeat out of package
+    3.5.2 Place slicedMeat on slice1
+  3.6 Add slicedCheese
+    3.6.1 Pull slicedCheese out of package
+    3.6.2 Place slicedCheese on slice2
+  3.7 Final assembly
+    3.7.1 Place slice2 with slicedCheese side
+          down on slice1 with slicedMeat side up
+    3.7.2 Set sandwich back on plate
+4 Enjoy sandwich
