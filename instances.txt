@@ -1,0 +1,41 @@
+Class: Plant
+Object: Orchid
+
+Attributes:
+- waterLevel: 10
+- minWaterLevel: 20
+- height: 15
+- potType: "Round"
+- blooming: True
+
+Method:
+- flowerBlooming(blooming = True)
+- repot(potType = "Oval")
+- plantGrowth(height = 15.5)
+- waterPlant(
+            while (waterLevel < minWaterLevel) {
+                waterLevel++;
+                }
+            )
+
+
+Class: Plant
+Object: Daisy
+
+Attributes:
+- waterLevel: 15
+- minWaterLevel: 15
+- height: 10
+- potType: "Rectangle"
+- blooming: False
+
+
+Method:
+- flowerBlooming(blooming = True)
+- repot(potType = "Pyramid")
+- plantGrowth(height = 10.25)
+- waterPlant(
+            while (waterLevel < minWaterLevel) {
+                waterLevel++;
+                }
+            )
