@@ -2,6 +2,7 @@ Class: Plant
 
 Attributes:
 - waterLevel(float)
+- minWaterLevel(float)
 - height(float)
 - potType(string)
 - blooming(boolean)
@@ -10,5 +11,5 @@ Attributes:
 Method:
 - flowerBlooming(Sets the blooming attribute to true or false)
 - repot(Changes the potType of the plant)
-- calculateGrowth(Calculates the rate of growth based on the height and when planted)
-- waterPlant(Add water to plant when waterLevel gets to low level)
+- plantGrowth(Changes the height of the plant)
+- waterPlant(Add water to plant when waterLevel gets below minWaterLevel)
